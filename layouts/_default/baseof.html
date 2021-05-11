@@ -36,6 +36,35 @@
         .navbar-brand a:visited {
             color: white;
         }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        .main-content {
+            margin-top: 1rem;
+        }
+
+        li li {
+            list-style: none;
+        }
+
+        li ul {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: #e2220a;
+        }
+
+        a:visited {
+            color: #e3036d;
+        }
+
+        a:hover {
+            color: #e3036d;
+        }
     </style>
 </head>
 
@@ -71,7 +100,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container main-content">
         {{ block "main" . }}{{ end }}
     </div>
 
