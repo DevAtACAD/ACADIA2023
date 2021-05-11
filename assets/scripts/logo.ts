@@ -1,4 +1,4 @@
-export {}
+export { }
 
 const canvas: HTMLCanvasElement = document.createElement("canvas");
 const attachPoint = document.getElementsByClassName("js-acadia2021-logo")[0];
