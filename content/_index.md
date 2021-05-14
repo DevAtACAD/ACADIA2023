@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-**Online + Global | Conference Dates: November 3-6 | Conference Call & Topics: May 14 | Deadlines for submissions: July 1**
+**Online + Global | Conference Dates: November 3-6**
 
 At the convergence of social, political, and environmental crises and a global pandemic, ACADIA2021 reflects on
 realigning our practices to allow for alternative and constructive ways of knowledge and world making to address
@@ -25,7 +25,5 @@ environment. We encourage conceptualizations of emancipatory computation, comput
 in collaboration, participation, and empowerment.
 
 The 2021 ACADIA conference will be a virtual and global event, featuring peer-reviewed, juried, and curated
-content, as well as keynotes and panel discussions. Deadlines for submissions and topics will be announced in
-mid-May.
-
+content, as well as keynotes and panel discussions. 
 *Contact: 2021@acadia.org*
