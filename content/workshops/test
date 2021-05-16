@@ -1,0 +1,21 @@
+
+{{<workshop name="" url="">}}
+    {{<workshop-instructors>}}
+    {{</workshop-instructors>}}
+    {{<workshop-content>}}
+    As architects, engineers, educators & builders, we rely on working closely together to create innovative structures. Inspired by this new need for social distancing, Robots in Architecture Research has developed a cloud-based approach to working remotely with robotics: KUKA|crc. Cloud Robot Control enables industrial access through online collaboration. In this workshop, participants will learn to remotely simulate robotic movements, program robots over the cloud, monitor fabrication progress and adapt in real time to inaccuracies in material, all while controlling the process from their own international location. The goal of this workshop is to advance the capability of remote robotic fabrication while prototyping new methods of adaptivity based on available process data. Construction relies on large international teams collaborating in close quarters to create ambitious structures. Inspired by this challenge, the aim of Cloud Robot Control is to extend remote robotic capabilities to the building site, enabling automated, adaptive and collaborative processes to bring a new level of digitization and innovation to the construction industry. Through the ACADIA 2020 Cloud Robot Control Workshop, an international group of artists, architects, and engineers will have a chance to experience automated construction in a new digital way.
+    {{</workshop-content>}}
+    {{<workshop-keywords kwd1 kwd2 kwd3>}}
+{{</workshop>}}
+
+{{< workshop src="./workshop1.jpg" name="WORKSHOP 01" url="https://www.ruhabenjamin.com/" workshop-name="KUKA|crc: Cloud Remote Control" 
+instructors="Ethan Kerber (Researcher, Chair of Individualized Production | RWTH Aachen University)Dr.-Ing. Sven Stumm (Senior Researcher, Robots in Architecture Research UG LLC) with guest lectures by Sigrid Brell-Cokcan and Johannes Braumann (RWTH Aachen / Robots in Architecture)">}}
+ 
+As architects, engineers, educators & builders, we rely on working closely together to create innovative structures. Inspired by this new need for social distancing, Robots in Architecture Research has developed a cloud-based approach to working remotely with robotics: KUKA|crc. Cloud Robot Control enables industrial access through online collaboration. In this workshop, participants will learn to remotely simulate robotic movements, program robots over the cloud, monitor fabrication progress and adapt in real time to inaccuracies in material, all while controlling the process from their own international location. The goal of this workshop is to advance the capability of remote robotic fabrication while prototyping new methods of adaptivity based on available process data. Construction relies on large international teams collaborating in close quarters to create ambitious structures. Inspired by this challenge, the aim of Cloud Robot Control is to extend remote robotic capabilities to the building site, enabling automated, adaptive and collaborative processes to bring a new level of digitization and innovation to the construction industry. Through the ACADIA 2020 Cloud Robot Control Workshop, an international group of artists, architects, and engineers will have a chance to experience automated construction in a new digital way.
+
+**Keywords**: Collaboration & Co-Design; Remote Robotics
+
+***Software***: Rhino & Grasshopper (trial license or educational license available here; KUKA|prc (license to be provided by workshop leaders)
+
+**Previous Knowledge Required**: Intermediate knowledge of Rhino & Grasshopper
+{{< /workshop >}}

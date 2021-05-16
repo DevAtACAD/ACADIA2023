@@ -58,7 +58,40 @@
             margin-bottom: 2rem;
         }
 
+        .bio {
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
 
+        .bio .affiliation {
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+
+        @media (max-width: 780px) {
+            .bio .content {
+                flex-direction: column-reverse;
+
+            }
+
+            .bio .headshot {
+                align-self: center;
+            }
+        }
+
+        .bio .content {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .bio .description {
+            text-align: justify;
+            margin-right: 2rem;
+        }
+
+        .bio .headshot {
+            max-width: 12rem;
+        }
 
         a {
             color: #e2220a;
