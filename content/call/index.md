@@ -74,7 +74,9 @@ Field Notes are an invitation for shorter pieces that may include provocative ar
 
 
 ##  SUBMISSION TEMPLATES
-Submission template and style guide will be published on May 21.  
+Required submission template and style guide here: [Technical Paper](./ACADIA_2021_FullPaper_Instructions.docx) and [Project and FieldNotes](./ACADIA_2021_ProjectFieldNotes_StyleGuide.docx).
+
+
 
 ##  PUBLICATION ETHICS GUIDELINES
 
