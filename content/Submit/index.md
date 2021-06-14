@@ -1,8 +1,7 @@
 +++
 title = "Submit"
 +++
-**Submition Guidlines**
-
+**Submission Guidelines**
 
 ACADIA 2021 invites three types of submissions:
 
@@ -26,7 +25,7 @@ We invite papers submission in two categories:
 
 Accepted papers will be published in the conference proceedings and authors will be invited to produce a short video presentation for the conference. Published papers will be included in the CumInCad database. All ACADIA papers are searchable through Web of Science Platform and Scopus.
 
-Papers must utilize the template provided through this link: [Technical Paper template](./ACADIA_2021_FullPaper_Instructions.docx). 
+Papers must utilize the style guide provided through this link: [Technical Paper style guide](./ACADIA_2021_FullPaper_Instructions.docx). 
 
 - Submission Deadline: July 1, 2021
 - Notification of Acceptance: September 1, 2021
@@ -44,7 +43,7 @@ Project submissions will be blind peer reviewed. Projects selected for the confe
 
 All identifying names, places, programs, institutions, and firms must be omitted from the paper to maintain an anonymous review process.All project submissions shall adhere to the [2021 ACADIA Publication Ethics Guidelines](http://acadia.org/content/conferences#publication_ethics).
 
-Project must utilize the template provided through this link: [Project template](./ACADIA_2021_ProjectFieldNotes_StyleGuide.docx).
+Project must utilize the style guide provided through this link: [Project style guide](./ACADIA_2021_ProjectFieldNotes_StyleGuide.docx).
 
 - Submission Deadline: July 12, 2021
 - Notification of Acceptance: September 1, 2021
@@ -61,7 +60,7 @@ Field Notes submissions shall consist of a short text, annotated images, image-b
 
 All project submissions shall adhere to the [2021 ACADIA Publication Ethics Guidelines](http://acadia.org/content/conferences#publication_ethics).
 
-Project must utilize the template provided through this link: [FieldNotes template](./ACADIA_2021_ProjectFieldNotes_StyleGuide.docx).
+Project must utilize the style guide provided through this link: [FieldNotes style guide](./ACADIA_2021_ProjectFieldNotes_StyleGuide.docx).
 
 - Submission Requirements: 800-1000 word texts; images are permitted and image-based essays are also welcome.
 - Field Notes Submission Deadline: July 12, 2021
