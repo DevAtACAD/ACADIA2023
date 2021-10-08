@@ -1,0 +1,46 @@
+{{ define "title" }}
+{{ .Site.Title }} &ndash; {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container main-content">
+
+    {{/* Sponsors overview */}}
+    {{.Content}}
+
+    <div class="sponsors">
+        <p>
+            ACADIA would like to acknowledge the generosity of Autodesk in their support of free registration for
+            all students to this year's conference, as well as grants and awards in partnership with the National
+            Organization of Minority Architects (NOMA) and the National Organization of Minority Architecture Students
+            (NOMAS).
+            Autodesk's sponsorship has also supported two grant programs -- for students from Mexico, and for
+            international
+            students -- to attend this year's workshops at no cost.
+        </p>
+        <h2>Platinum Sponsor</h2>
+        <div class='sponsor-group sponsor-group-platinum'>
+            <img class="img-fluid" src="./Autodesk.jpg" />
+        </div>
+        <h2>Gold Sponsor</h2>
+        <div class='sponsor-group sponsor-group-gold'>
+            <img class="img-fluid" src="./Facebook.jpg" />
+        </div>
+        <h2>Silver Sponsor</h2>
+        <div class='sponsor-group sponsor-group-silver'>
+            <img class="img-fluid" src="./Grimshaw.jpg" />
+        </div>
+        <h2>Bronze Sponsor</h2>
+        <div class='sponsor-group sponsor-group-bronze'>
+            <img class="img-fluid" src="./Arktura.jpg" />
+        </div>
+        <h2>Other Sponsors</h2>
+        <div class='sponsor-group sponsor-group-other'>
+            <img src="./ArchMachines.jpg" />
+            <img src="./ORO.jpg" />
+            <img src="./HKS.jpg" />
+        </div>
+    </div>
+
+</div>
+{{ end }}

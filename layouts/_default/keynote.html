@@ -1,0 +1,31 @@
+{{ define "title" }}
+{{ .Site.Title }} &ndash; {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container main-content">
+    {{/* Workshops overview */}}
+    {{.Content}}
+
+
+    {{ $keynotes := sort (.Resources.Match "keynotes/*") ".Name" }}
+    {{/* Table of contents */}}
+    <ul>
+        {{ range $index, $w := $keynotes }}
+        <li>
+            <a href="#{{- .Params.name | anchorize -}}">
+                Keynote day {{add 1 $index}} - {{ .Params.name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+
+
+    {{ range $keynotes }}
+    {{/* {{ . | jsonify (dict "indent" " ") }} */}}
+    {{ .Scratch.Set "keynote-id" (.Params.name | anchorize) }}
+    {{ partial "keynote" . }}
+    {{ end }}
+</div>
+
+{{ end }}

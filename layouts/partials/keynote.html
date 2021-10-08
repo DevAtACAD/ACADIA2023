@@ -1,0 +1,5 @@
+<div id="{{ .Scratch.Get `keynote-id` }}" class="keynote day">
+    <h1>{{.Params.name}}</h1>
+    {{.Params.leaders | safeHTML | markdownify}}
+    <img class="img-fluid" src="{{.Params.headerImg}}" />
+    <div class='content'>{{.Content}}</div>

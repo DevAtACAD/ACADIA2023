@@ -3,12 +3,19 @@
     <p>Workshop Leaders:</p>
     {{.Params.leaders | safeHTML | markdownify}}
     <img class="img-fluid" src="{{.Params.headerImg}}" />
-    {{.Content}}
+    <div class='content'>{{.Content}}</div>
     {{ if isset .Params "keywords" }}
     <div class='category'><span class='name'>Keywords:</span> {{ delimit .Params.keywords ", " }}</div>
     {{ end }}
     {{ if isset .Params "software" }}
     {{ $software := apply (apply .Params.software "safeHTML" ".") "markdownify" "." }}
     <div class='category'><span class='name'>Software:</span> {{ delimit $software ", " }}</div>
+    {{ end }}
+    {{ if isset .Params "prerequisites" }}
+    <div class='category'><span class='name'>Prerequisites:</span> {{ delimit .Params.prerequisites ", " }}</div>
+    {{ end }}
+    {{ if isset .Params "tentative_workshop_schedule" }}
+    <div class='category'><span class='name'>Tentative Workshop Schedule:</span>
+        {{ delimit .Params.tentative_workshop_schedule ", " }}</div>
     {{ end }}
 </div>

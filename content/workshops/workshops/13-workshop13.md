@@ -1,0 +1,29 @@
++++
+name="Remote Robotic Assemblies"
+headerImg="workshop13.jpg"
+leaders="""
+- **Stefana Parascho** ([Assistant Professor, CREATE Laboratory, Princeton University](https://createlab.princeton.edu/))
+- **Edvard P.G. Bruun** ([PhD Candidate, Form Finding Lab / CREATE Laboratory, Princeton University](http://formfindinglab.princeton.edu/people/edvard-bruun/))
+- **Gonzalo Casas** ([Software Engineer, Gramazio Kohler Research, ETH Zurich](https://gramaziokohler.arch.ethz.ch/))
+- **Beverly Lytle**([Software Engineer, Gramazio Kohler Research, ETH Zurich](https://gramaziokohler.arch.ethz.ch/))
+"""
+keywords=["robot control", "robotic assembly/disassembly", "cooperative robotics", "open source"]
+
+Software=["We will use the following software:  Minimum OS: Windows 10 Pro or Mac OS Sierra 10.12 Anaconda 3 (free) Docker Desktop (free) Rhino 6/7 & Grasshopper (licensed - students may use the trial version for free) Visual Studio Code (free): Any python editor works, but we recommend VS Code + extensions   During the workshop we will all go through the installation of COMPAS + Extensions (COMPAS FAB, COMPAS RRC, …) as part of the workshop content itself."] 
+
+prerequisites= ["Participants should be familiar with Rhino and using Grasshopper as a working environment. No programming experience is necessary, however some knowledge of Python programming will be advantageous for their learning experience."]
+
+tentative_workshop_schedule= ["09.11.2021: 10:00 - 18:00 EST", "09.12.2021: 10:00 - 18:00 EST"]
+
++++
+
+**Abstract**: Robotic fabrication in architecture and design relies on a wide range of computational tools and methods for designing, planning, and controlling robots. Through this workshop we aim to address the challenge in learning and accessing such tools, which represents a major barrier to entry for architects wishing to utilize robots more centrally within their work. By introducing participants to the open source framework COMPAS FAB for robotic fabrication and COMPAS RRC for robot control, we provide a central platform for the simulation and remote control of robots used for fabrication at the architectural scale. Workshop participants will design a space-frame structure from their homes; this structure will then be fabricated remotely in the Embodied Computation Lab at Princeton University. 
+
+
+**Description**: Robotic fabrication has become an integral part of the architectural discipline. Both academia and practice are focusing their efforts on unlocking the potential of robotic processes in architectural design and construction. However, due to the inherent interdisciplinarity of the field there is a lack of easily accessible and streamlined robotic communication tools specific to architectural applications. Such tools are necessary to better serve the emergent needs of architects and designers looking to work more with this developing technology. In addition, the global pandemic has made access to robotic laboratories more challenging than ever, leaving students and researchers to limit their work to simulation and virtual environments. This workshop aims to address this gap by introducing the participants to newly developed remote communication tools for robotic control.
+The goal of this workshop is to take advantage of the unique circumstances of this year’s ACADIA online conference in order to increase the general accessibility of robotic fabrication tools and methods to participants all over the world. Specifically, we aim to introduce participants to the COMPAS FAB library and utilize it to enable the remote control of physical robots. 
+COMPAS FAB is the robotic fabrication package for the COMPAS Framework facilitating the planning and execution of robotic fabrication processes. It provides interfaces to existing software libraries and tools available in the field of robotics (e.g. OMPL, ROS) and makes them accessible from within a parametric design environment (Rhino Grasshopper).
+Participants will learn robotic fabrication methods using the COMPAS Framework. Beginning from the fundamentals of robotics, and moving through forward and inverse kinematics, path planning and collision detection, the lessons will culminate with an application of all these building blocks to the assembly/disassembly of a space-frame structure chosen as a case-study. The physical setup that we will use for the fabrication of the space frame is located in the Embodied Computation Lab at Princeton University, and consists of two ABB IRB 4600-2.55m robots mounted on linear tracks IRBT 4004.
+The case-study will focus on implementing cooperative robotic assembly and disassembly processes. Robotic fabrication has been mostly used to address construction of new structures with individualized geometries that cannot be easily constructed by hand. In addition to this, we aim to explore the versatility of robotic processes by proposing both an assembly and disassembly cycle to demonstrate the potential use of robots beyond only the assembly of new structures. The chosen case-study will allow participants to explore the complexity of a multi-robotic set-up, as well as that of spatial assembly tasks; this will demonstrate the potential of robotic path-planning, simulation and online communication. In contrast to the traditional method of using pre-defined robotic code, this case-study gives designers the possibility to adapt, react and interact with the built structure, blurring the separation between design and construction.  
+Through the COMPAS RRC package, participants will be able to directly connect and send commands from their computers at home to the physical robots located in Princeton, USA. We will conclude the workshop with a demonstration: using two robots to cooperatively assemble and disassemble a wooden space-frame structure at the Embodied Computation Lab in Princeton. 
+

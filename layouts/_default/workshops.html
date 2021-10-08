@@ -3,28 +3,31 @@
 {{ end }}
 
 {{ define "main" }}
-{{/* Workshops overview */}}
-{{.Content}}
+<div class="container main-content">
+
+    {{/* Workshops overview */}}
+    {{.Content}}
 
 
-{{ $workshops := sort (.Resources.Match "workshops/*") ".Name" }}
-{{/* Table of contents */}}
-<ul>
-    {{ range $index, $w := $workshops }}
-    <li>
-        <a href="#{{- .Params.name | anchorize -}}">
-            Workshop {{$index}} - {{ .Params.name }}
-        </a>
-    </li>
+    {{ $workshops := sort (.Resources.Match "workshops/*") ".Name" }}
+    {{/* Table of contents */}}
+    <ul>
+        {{ range $index, $w := $workshops }}
+        <li>
+            <a href="#{{- .Params.name | anchorize -}}">
+                Workshop {{add 1 $index}} - {{ .Params.name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    <img class="img-fluid" style="width: 10%; margin-bottom: 2rem;" src="./AIA.jpg" />
+
+    {{/* Workshops proper */}}
+    {{ range $workshops }}
+    {{/* {{ . | jsonify (dict "indent" " ") }} */}}
+    {{ .Scratch.Set "workshop-id" (.Params.name | anchorize) }}
+    {{ partial "workshop" . }}
     {{ end }}
-</ul>
-<img class="img-fluid" style="width: 10%;" src="./AIA.jpg" />
 
-{{/* Workshops proper */}}
-{{ range $workshops }}
-{{/* {{ . | jsonify (dict "indent" " ") }} */}}
-{{ .Scratch.Set "workshop-id" (.Params.name | anchorize) }}
-{{ partial "workshop" . }}
-{{ end }}
-
+</div>
 {{ end }}
