@@ -1,6 +1,6 @@
 +++
 title = "Log-in"
-layout= "login"
+layout= "day1"
 draft= "true"
 order = 10
 +++
