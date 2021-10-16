@@ -2,9 +2,36 @@
 {{ .Site.Title }} &ndash; {{ .Title }}
 {{ end }}
 
-{{ define "main" }}
-<iframe title="introvoke event" width="100%" height="100%"
-    src="https://embed.introvoke.com/networkingHub/b96f1e14-d435-4677-be1f-a66ebe7c2a3f" frameborder="0"
-    allow="camera *; microphone *; autoplay; display-capture" allowfullscreen
-    style="height: 100%; width:100%; position: absolute;"></iframe>
-{{ end }}
+<html>
+<head>
+
+    <script>
+        let date = Date();
+        let day = date.getDay();
+        const element = document.getElementById("introvoke");
+        switch (day) {  
+            case 3: // Wednesday
+                element.src = "https://embed.introvoke.com/event/bab4e34b-ff0a-4101-8ae6-dceb6ba43622";
+                break;
+            case 4: // Thursday
+                element.src = "https://embed.introvoke.com/event/76bb08bd-3e70-4b65-8a67-050a5d913791";
+                break;
+            case 5: // Friday
+                element.src = "https://embed.introvoke.com/event/389166fe-21cc-48cc-b779-a2ea0bcdc0aa";
+                break;
+            case 6: // Saturday
+                element.src = "https://embed.introvoke.com/event/5ecdd8ed-0a9d-43b7-acab-b70200152949";
+                break;
+            default:
+                element.src = "https://embed.introvoke.com/event/5ecdd8ed-0a9d-43b7-acab-b70200152949";
+        }
+    </script>
+
+<title>ACADIA 2021 Conference</title>
+</head>
+<body>
+
+    <iframe id="introvoke" title="introvoke event" width="100%" height="100%" src="https://embed.introvoke.com/event/bab4e34b-ff0a-4101-8ae6-dceb6ba43622" frameborder="0" allow="camera *; microphone *; autoplay; display-capture" allowfullscreen style="height: 100%; width:100%"></iframe>
+
+</body>
+</html>
