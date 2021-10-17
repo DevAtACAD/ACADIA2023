@@ -1,6 +1,6 @@
 +++
 name="November 4: Designing with AI, Data, Bias, & Ethics"
-headerImg="Day2.jpg"
+headerImg="Day2.png"
 +++
 
 {{< keynote  name="Benjamin Bratton" url="http://bratton.info/" affiliation="Professor of Visual Arts at University of California, San Diego, Program Director of The Terraforming program at the Strelka Institute, Visiting Professor at The European Graduate School, SCI_Arc and NYU Shanghai.">}}
