@@ -73,7 +73,7 @@ Stefana completed her doctorate in 2019 at ETH Zurich, Gramazio Kohler Research.
 
 
 
-{{< bio src="VernelleNoel.jpg" name="Dr. Vernelle A. A. Noel" url="https://vaanoel.com/" affiliation="Assistant Professor, University of Florida" >}}
+{{< bio src="VernelleNoel.jpg" name="Dr. Vernelle A. A. Noel" url="https://vaanoel.com/" affiliation="Assistant Professor, Georgia Tech" >}}
 
 Vernelle A. A. Noel is a design scholar, architect, artist, and founding Director of the Situated Computation + Design Lab at the University of Florida. Her research examines traditional and automated making, human-computer interaction, interdisciplinary creativity, and their intersections with society. Her researchwork has been supported by the Graham Foundation for Advanced Studies in the Fine Arts, the Mozilla Foundation, and ideas2innovation (i2i), among others. 
 Dr. Noel builds new expressions, tools, and methodologies to explore social, cultural, and political aspects of making and computational design for new reconfigurations of practice, pedagogy, and publics. Her 2015 TEDx Talk is titled, “The Power of Making: Craft, Computation, and Carnival.” She holds a PhD in Architecture: Design and Computation from Penn State University, an MS from MIT, a BArch. from Howard University, and a Diploma in Civil Engineering from Trinidad & Tobago.
