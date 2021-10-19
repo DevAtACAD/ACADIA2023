@@ -1,14 +1,14 @@
 +++
 name="November 3: Critical Computation, Participation, Intersectionality and Emancipatory Design"
-headerImg="Day1.jpg"
+headerImg="Day1.png"
 
 
 +++
 
 
-{{< keynote src="KatherineHayles.jpg" name="N. Katherine Hayles" url="https://nkhayles.com/" affiliation="Distinguished Research Professor of English, University of California, Los Angeles">}}
+{{< keynote src="" name="Lesley-Ann Noel" url="https://design.ncsu.edu/people/lmnoel/" affiliation="Assistant Professor, North Carolina State University">}}
 
-N. Katherine Hayles is the Distinguished Research Professor at the University of California, Los Angeles, and the James B. Duke Professor Emerita from Duke University.  Her research focuses on the relations of literature, science and technology in the 20th and 21st centuries.  Her twelve print books include Postprint: Books and Becoming Computational (Columbia, 2021), Unthought: The Power of the Cognitive Nonconscious (Univ. of Chicago Press, 2017) and How We Think: Digital Media and Contemporary Technogenesis (Univ. of Chicago Press 2015), in addition to over 100 peer-reviewed articles.  Her books have won several prizes, including  The Rene Wellek Award for the Best Book in Literary Theory for How We Became Posthuman: Virtual Bodies in Literature, Cybernetics and Informatics, and the Suzanne Langer Award for Writing Machines.  She has been recognized by many fellowships and awards, including two NEH Fellowships, a Guggenheim, a Rockefellar Residential Fellowship at Bellagio, and two University of California Presidential Research Fellowships.  She is a member of the American Academy of Arts and Sciences.  She is currently at work on Technosymbiosis: Futures of the Human.
+Lesley-Ann Noel is an Assistant Professor in the Dept. of Design Studies at North Carolina State University. Her current work is situated at the intersection of equity, co-creation and futures thinking. Her research interests are emancipatory research centered around the perspectives of those who would traditionally be excluded from research, community-led research, design-based learning and design thinking. She practices primarily in the area of social innovation, education and public health. She promotes greater critical awareness among designers and design students by introducing critical theory concepts and vocabulary into the design studio e.g. through The Designer’s Critical Alphabet. She is co-Chair of the Pluriversal Design Special Interest Group of the Design Research Society. Before joining North Carolina State University, she was the Associate Director of Design Thinking for Social Impact at Tulane University. She was also a lecturer at Stanford University and the University of the West Indies.
 
 
 {{< /keynote >}}

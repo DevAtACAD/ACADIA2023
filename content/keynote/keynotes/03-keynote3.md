@@ -1,6 +1,6 @@
 +++
 name="November 5: Design Imperatives in Social & Environmental Crisis"
-headerImg="Day3.jpg"
+headerImg="Day3.png"
 +++
 
 {{< keynote  name="Paola Antonelli" url="http://momarnd.moma.org/salons/" affiliation="MOMA’s Senior Curator, Department of Architecture and Design, and Director, Research and Development">}}

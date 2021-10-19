@@ -1,6 +1,6 @@
 +++
 name="November 6: Emerging Trends in Response to Critical Computation & Practice"
-headerImg="Day4.jpg"
+headerImg="Day4.png"
 
 +++
 
