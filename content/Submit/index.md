@@ -1,7 +1,6 @@
 +++
 title = "Submit"
 order = 4
-draft = true
 +++
 **SUBMISSION GUIDELINES**
 

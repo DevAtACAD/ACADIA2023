@@ -1,7 +1,6 @@
 +++
 title = "PhD Workshop Calls"
 order = 5
-draft = "true"
 +++
 **Online + Global | November 2**
 
