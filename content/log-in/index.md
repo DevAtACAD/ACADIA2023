@@ -1,7 +1,6 @@
 +++
 title = "Log-in"
 layout= "login"
-draft= "true"
 order = 10
 +++
 
