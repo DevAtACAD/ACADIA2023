@@ -133,6 +133,12 @@ order = 4
 				{{#if content.image0}}
 					<img class="card-img-top" src="{{content.image0}}" style="width:100%; max-width:max-content;" class="d-block mx-auto">
 				{{/if}}
+				{{#if content.video}}
+					<video style="width:100%; max-width:max-content;" class="d-block mx-auto" autoplay muted>
+						<source src="{{content.video}}" type="video/mp4">
+					</video>
+				{{/if}} 
+				<br/>
 				<div class="card-body">
 					<h4 class="card-title text-dark">{{content.title}}</h4>
 					<p class="my-3 card-text text-dark">{{content.authors}}</p>
@@ -185,6 +191,12 @@ order = 4
 				<p class="my-1 text-dark">{{content.authors}}</p>
 				
 				<!-- <p class="my-1 text-muted" style="font-style:italic;"><small>{{content.category}}</small></p> -->
+				<br/>
+				{{#if content.video}}
+					<video style="width:100%; max-width:max-content;" class="d-block mx-auto" controls>
+						<source src="{{content.video}}" type="video/mp4">
+					</video>
+				{{/if}} 
 				<br/>
 				{{#if content.image0}}
 					<img src="{{content.image0}}" style="width:100%; max-width:max-content;" class="d-block mx-auto">
