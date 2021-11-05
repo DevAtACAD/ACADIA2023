@@ -134,9 +134,12 @@ order = 4
 					<img class="card-img-top" src="{{content.image0}}" style="width:100%; max-width:max-content;" class="d-block mx-auto">
 				{{/if}}
 				{{#if content.video}}
-					<video style="width:100%; max-width:max-content;" class="d-block mx-auto" autoplay muted>
+
+				<!-- <iframe  class="d-block mx-auto" src="{{content.video}}" title="YouTube video player" frameborder="0" autoplay muted></iframe> -->
+
+					<!-- <video style="width:100%; max-width:max-content;" class="d-block mx-auto" autoplay muted>
 						<source src="{{content.video}}" type="video/mp4">
-					</video>
+					</video> -->
 				{{/if}} 
 				<br/>
 				<div class="card-body">
@@ -193,9 +196,7 @@ order = 4
 				<!-- <p class="my-1 text-muted" style="font-style:italic;"><small>{{content.category}}</small></p> -->
 				<br/>
 				{{#if content.video}}
-					<video style="width:100%; max-width:max-content;" class="d-block mx-auto" controls>
-						<source src="{{content.video}}" type="video/mp4">
-					</video>
+				<iframe  class="d-block mx-auto" src="{{content.video}}" title="YouTube video player" frameborder="0" autoplay muted></iframe>
 				{{/if}} 
 				<br/>
 				{{#if content.image0}}
