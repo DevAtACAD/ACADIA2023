@@ -9,6 +9,10 @@ order = 6
 
 **REALIGNMENTS: Toward Critical Computation**
 
+
+<!-- [![Visit Workshop Exhibition](Workshops-Exhibition.jpeg)](https://bit.ly/ACADIA-2021-Workshops-Gallery) -->
+
+
 {{< youtube g5qV6N9P8VU >}}
 
 

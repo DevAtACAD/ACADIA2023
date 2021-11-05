@@ -6,8 +6,16 @@
 <div class="container main-content">
 
     {{/* Workshops overview */}}
-    {{.Content}}
+    
+    <a href="bit.ly/ACADIA-2021-Workshops-Gallery" style="text-decoration: none; color: inherit" ><h1>Visit the Workshops Exhibition:</h1></a>
+    <br/>
+    <a href="bit.ly/ACADIA-2021-Workshops-Gallery"><img class="img-fluid" style="width: auto;" src="./Workshops-Exhibition.jpeg"/></a>
+    <br/>
+    <br/>
+    <br/>
 
+
+    {{.Content}}
 
     {{ $workshops := sort (.Resources.Match "workshops/*") ".Name" }}
     {{/* Table of contents */}}
