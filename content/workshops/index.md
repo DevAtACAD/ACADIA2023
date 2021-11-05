@@ -3,15 +3,10 @@ title = "Workshops"
 layout = "workshops"
 order = 6
 +++
-**Online + Global | Workshop Dates: September 11-12**
 
-**ACADIA Announces Workshops for 2021 Conference**
+<!-- **Online + Global | Workshop Dates: September 11-12**
 
-**REALIGNMENTS: Toward Critical Computation**
-
-
-<!-- [![Visit Workshop Exhibition](Workshops-Exhibition.jpeg)](https://bit.ly/ACADIA-2021-Workshops-Gallery) -->
-
+**REALIGNMENTS: Toward Critical Computation** -->
 
 {{< youtube g5qV6N9P8VU >}}
 
