@@ -1,11 +1,15 @@
 +++
 title = "FAQ"
 order = 10
-
 +++
+
 **FREQUENTLY ASKED QUESTIONS**
 
 **CONFERENCE**
+
+- ***When and where can I view the recorded sessions?***
+    Keynote and award sessions were all streamed live during the event, and can be viewed at [ACADIA's Youtube Channel](https://www.youtube.com/c/ACADIAorg/videos). Paper presentations, field notes, and other such sessions will be available to registered ticketholders on our website very soon, and will remain on our website for 6 months. Registration is still live until December 31, 2021, at the [Register](https://2021.acadia.org/register) link above. Ticketholders will receive instructions for accessing the recordings once they have been posted.
+
 - ***When is the conference?***
     ACADIA 2021 Conference is held online, between November 3-6. A detailed schedule is found under the "Schedule" tab above.
 
