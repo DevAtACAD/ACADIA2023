@@ -1,0 +1,16 @@
+{{ define "title" }}
+{{ .Site.Title }} &ndash; {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container main-content">
+
+    {{/* Sponsors overview */}}
+    {{.Content}}
+
+    <div class="publication">
+        <div class='sponsor-group sponsor-group-platinum'>
+            <img class="img-fluid" src="./ACADIA2021_HighResolution.png" />
+        </div>
+    </div>
+    {{ end }}
